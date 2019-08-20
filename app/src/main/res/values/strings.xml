@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BusBookingApp</string>
+    <string name="cont">Continue without signing in</string>
+    <string name="btnLogIn">LOG IN</string>
+    <string name="txt_logIn_Here">Log In Here</string>
+    <string name="footer_note">
+        This is the footer note for our app and it will available on all the pages in this app
+    </string>
+    <string name="bus_one">
+        <b>Bus one</b>
+        This is the first bus in the database and this moves from kampala to western uganda
+    </string>
+    <string name="title_activity_menu_actvity">Menu_actvity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="this_is_made_be_eddy_wang">This is made be eddy wang</string>
+    <string name="logo">logo</string>
+</resources>

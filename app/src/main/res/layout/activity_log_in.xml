@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10sp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_logIn_Here"
+            style="@style/headings"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:background="#200f3f"
+            >
+
+
+            <!--username input-->
+            <TextView
+               style="@style/text_view"
+                android:text="Email"
+                />
+            <EditText
+                android:id="@+id/userInputName"
+                style="@style/edit_text"
+                android:inputType="textEmailAddress"
+                />
+            <!--password input-->
+            <TextView
+                style="@style/text_view"
+                android:text="Password:"
+                />
+            <EditText
+                android:id="@+id/userInputPassword"
+              style="@style/edit_text"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:id="@+id/btn_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#034703"
+                android:gravity="center"
+                android:text="LOG IN"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="OR"
+                android:textSize="28sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/signUpLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10sp"
+                android:layout_marginTop="15dp"
+                android:text="Sign Up Here"
+                android:textColor="#00f900"
+                android:textSize="21sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

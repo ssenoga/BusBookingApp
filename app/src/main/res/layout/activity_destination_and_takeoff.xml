@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Destination_and_takeoff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:text="Fill The Form Below"
+        android:textStyle="bold"
+
+
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/txt_qtn1"
+            style="@style/text_view"
+            android:text="Where are you?"
+            android:textColor="#000"
+            android:textSize="26sp"
+            android:layout_marginBottom="8dp"
+            />
+        <Spinner
+            android:id="@+id/spinner_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_qtn1"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            />
+        <!-- where the user is going -->
+        <TextView
+            android:id="@+id/txt_qtn2"
+            style="@style/text_view"
+            android:text="Where are you going?"
+            android:textColor="#000"
+            android:textSize="26sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="8dp"
+            />
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_qtn2"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <!-- the button to take the user to the next page-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:background="#D25DCBD3"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:text="NEXT"
+            android:textSize="30dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

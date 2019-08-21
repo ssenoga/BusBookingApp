@@ -1,6 +1,6 @@
 # BusBookingApp
 ## The first page of the app
-![Bus Image](https://i.ibb.co/Gs0RdSN/easybus1.png)
+![Bus Image](https://i.ibb.co/Gs0RdSN/easybus1.png)<br>
 This app is used to book buses online very quickly without even moving a single step from your confort zone
 
 

@@ -20,4 +20,20 @@ The internship was done from [Lapisha](https://lapisha.com)
 ![Bus Image](https://i.ibb.co/kgBHzLX/available-Buses.png)
 
 
+# API Files
+Pull the api files for the backend of this app from [this](https://github.com/ssenoga/busAppApi) repo.
+<br>
+## Steps followed after downloading the files from the [repo](https://github.com/ssenoga/busAppApi)
+
+1. Unzip the folder
+2. copy all the subfolders in the unzipped folder
+<strong>Hint</strong> > Make sure you have alocal server installed i recommend [Xammp](https://www.apachefriends.org/download.html) or [WampServer](http://www.wampserver.com/en/#download-wrapper)
+
+3. After installing the local server, copy the extracted main folder from the [repo](https://github.com/ssenoga/busAppApi) and paste it in your <code>www</code> directory in your local server's folder eg for xammp it is <code>C:\xammp\www\</code> and for wampserver its <code>C:\wamp64\www</code> on a windows machine.
+
+4. if done well, start your server and and run your app using from the [android studio](https://developer.android.com/studio/?gclid=CjwKCAjw1_PqBRBIEiwA71rmtQnuxpXZ6eGTgX2hQLp9BqZTP9vOizqol2MoRMAEHoddvLCXV298xBoCjtoQAvD_BwE) using [Andriod emulators](https://developer.android.com/studio/run/emulator?gclid=CjwKCAjw1_PqBRBIEiwA71rmtVqWlytQZ6l-zEDE-_96_03S0FDbryg2xJOO3G3-Fd58CHijXhagzRoCEpYQAvD_BwE)
+
+### Happy Coding Pals
+
+
 

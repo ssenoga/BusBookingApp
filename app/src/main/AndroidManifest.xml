@@ -14,7 +14,7 @@
         <activity android:name=".Destination_and_takeoff"></activity>
         <activity
             android:name=".Payment_method_activity"
-            android:parentActivityName=".List_of_available_buses"></activity>
+            android:parentActivityName=".Destination_and_takeoff"></activity>
         <activity
             android:name=".Main_Activity"
             android:parentActivityName=".Landing_PageActivity" />

@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:text="Fill The Form Below"
         android:textStyle="bold"
 
@@ -52,7 +52,8 @@
             android:layout_marginBottom="8dp"
             />
         <Spinner
-            android:layout_width="300dp"
+            android:id="@+id/spinner_two"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/txt_qtn2"
             android:padding="10dp"
@@ -70,6 +71,7 @@
             android:layout_alignParentBottom="true"
             android:text="NEXT"
             android:textSize="30dp"
+            android:onClick="goNext"
             />
 
     </RelativeLayout>

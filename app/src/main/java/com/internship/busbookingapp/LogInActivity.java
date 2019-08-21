@@ -90,7 +90,7 @@ public class LogInActivity extends AppCompatActivity {
             @Override
             public void processFinish(String s) {
                 if(s.contains("success")){
-                    startActivity(new Intent(LogInActivity.this,List_of_available_buses.class));
+                    startActivity(new Intent(LogInActivity.this,Payment_method_activity.class));
                 }else {
                     if(s.contains("failed")){
                         onFailure("Invalid log in details please try again");

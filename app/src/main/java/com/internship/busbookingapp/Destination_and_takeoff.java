@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -71,7 +72,7 @@ public class Destination_and_takeoff extends AppCompatActivity {
         locAdapter.setDropDownViewResource(R.layout.dest_and_take);
         spinner1.setAdapter(distAdapter);
 
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 selectedItem1 = (String) adapterView.getItemAtPosition(i);
@@ -89,5 +90,7 @@ public class Destination_and_takeoff extends AppCompatActivity {
 
     public void goNext(View view){
         startActivity(intent);
+        String pick = "You are from "+selectedItem +" and you are going to " + selectedItem1;
+        Toast.makeText(Destination_and_takeoff.this,pick,Toast.LENGTH_LONG).show();
     }
 }

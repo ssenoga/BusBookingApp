@@ -47,16 +47,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="420dp"
         android:text="Login"
         android:textSize="35sp"
         android:gravity="center"
         android:padding="10dp"
         android:background="#00f"
         android:textColor="#fff"
-        android:layout_alignParentBottom="true"
-
+        android:layout_above="@id/txt_contunie"
         />
 
-    
+    <TextView
+        android:id="@+id/txt_contunie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Continue"
+        android:textSize="35sp" />
+
+
 </RelativeLayout>

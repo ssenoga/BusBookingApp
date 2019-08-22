@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.internship.busbookingapp">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/leftface"
@@ -11,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Destination_and_takeoff"></activity>
+        <activity android:name=".Bus_for_given_dest"></activity>
+        <activity android:name=".Destination_and_takeoff" />
         <activity
             android:name=".Payment_method_activity"
-            android:parentActivityName=".Destination_and_takeoff"></activity>
+            android:parentActivityName=".Destination_and_takeoff" />
         <activity
             android:name=".Main_Activity"
             android:parentActivityName=".Landing_PageActivity" />
@@ -38,5 +37,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
